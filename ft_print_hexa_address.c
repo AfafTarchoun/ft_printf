@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_hexa_address.c                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: atarchou <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: atarchou <atarchou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/04 14:54:07 by atarchou          #+#    #+#             */
-/*   Updated: 2021/12/04 14:57:11 by atarchou         ###   ########.fr       */
+/*   Updated: 2022/10/03 21:45:19 by atarchou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ void	ft_print_hexa_address(unsigned long nb, int *len)
 			c = nb + '0';
 		else
 			c = nb + 87;
-		ft_putchar(c, len);
+		ft_putcharrrrrr(c, len);
 	}
 	else
 	{

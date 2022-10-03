@@ -6,13 +6,13 @@
 /*   By: atarchou <atarchou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/03 16:45:24 by atarchou          #+#    #+#             */
-/*   Updated: 2021/12/04 15:13:34 by atarchou         ###   ########.fr       */
+/*   Updated: 2022/10/03 21:45:19 by atarchou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-void	ft_putchar(char c, int *len)
+void	ft_putcharrrrrr(char c, int *len)
 {
 	write(1, &c, 1);
 	*len += 1;

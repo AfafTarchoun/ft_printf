@@ -6,7 +6,7 @@
 /*   By: atarchou <atarchou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/03 17:25:02 by atarchou          #+#    #+#             */
-/*   Updated: 2021/12/04 15:00:46 by atarchou         ###   ########.fr       */
+/*   Updated: 2022/10/03 21:45:19 by atarchou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ void	ft_print_hexa_upper(unsigned int nb, int *len)
 			c = nb + '0';
 		else
 			c = nb + 55;
-		ft_putchar(c, len);
+		ft_putcharrrrrr(c, len);
 	}
 	else
 	{

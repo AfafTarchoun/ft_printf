@@ -6,7 +6,7 @@
 /*   By: atarchou <atarchou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/03 16:52:28 by atarchou          #+#    #+#             */
-/*   Updated: 2021/12/04 15:08:09 by atarchou         ###   ########.fr       */
+/*   Updated: 2022/10/03 21:45:19 by atarchou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,21 +15,21 @@
 static void	ft_put_string(char *str, int *len)
 {
 	if (!str)
-		ft_putstr("(null)", len);
+		ft_putstrrrr("(null)", len);
 	else
-		ft_putstr(str, len);
+		ft_putstrrrr(str, len);
 }
 
 static void	ft_check(char c, va_list arg, int *len)
 {
 	if (c == 'd' || c == 'i')
-		ft_putnbr(va_arg(arg, int), len);
+		ft_putnbrrrr(va_arg(arg, int), len);
 	if (c == 's')
 		ft_put_string(va_arg(arg, char *), len);
 	if (c == 'u')
 		ft_putnbr_unsigned(va_arg(arg, unsigned int), len);
 	if (c == '%')
-		ft_putchar('%', len);
+		ft_putcharrrrrr('%', len);
 	if (c == 'x')
 		ft_print_hexa_lower(va_arg(arg, unsigned int), len);
 	if (c == 'X')
@@ -37,7 +37,7 @@ static void	ft_check(char c, va_list arg, int *len)
 	if (c == 'p')
 		ft_print_address(va_arg(arg, unsigned long), len);
 	if (c == 'c')
-		ft_putchar(va_arg(arg, int), len);
+		ft_putcharrrrrr(va_arg(arg, int), len);
 }
 
 int	ft_printf(const char *format, ...)
@@ -56,7 +56,7 @@ int	ft_printf(const char *format, ...)
 			ft_check(format[++i], arg, &len);
 		}
 		else
-			ft_putchar(format[i], &len);
+			ft_putcharrrrrr(format[i], &len);
 		i++;
 	}
 	va_end(arg);

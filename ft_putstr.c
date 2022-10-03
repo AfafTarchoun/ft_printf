@@ -6,17 +6,17 @@
 /*   By: atarchou <atarchou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/03 16:46:48 by atarchou          #+#    #+#             */
-/*   Updated: 2021/12/04 15:27:37 by atarchou         ###   ########.fr       */
+/*   Updated: 2022/10/03 21:45:19 by atarchou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-void	ft_putstr(char *str, int *len)
+void	ft_putstrrrr(char *str, int *len)
 {
 	int	i;
 
 	i = 0;
 	while (str[i])
-		ft_putchar(str[i++], len);
+		ft_putcharrrrrr(str[i++], len);
 }
